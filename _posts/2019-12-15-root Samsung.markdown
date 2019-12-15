@@ -45,13 +45,21 @@ http://bbs.gfan.com/android-9558898-1-1.html 这个似乎是一个靠谱的文�
 
 6.下载最新的[Odin](https://odindownload.com/),我使用的是从[迷你手机网](https://www.netded.com/)下载的版本。
 
-7.重启手机进入下载模式（音量down + Bixby，USB链接电脑），
+7.重启手机进入下载模式（音量down + Bixby，USB链接电脑），点击AP选择magsik_patched.tar文件，进入选项options 取消“Auto Reboot”,点击start。
 
 ![](../../img/root-samsung/root-samsung-s10-1.jpg)
 
+![](../../img/root-samsung/root-samsung-s10-2.jpg)
 
+8.完成后，按住电源 + 音量down 退出下载模式，当屏幕黑掉后立即按下 音量up + 电源 + Bixby，当屏幕出现警告时，释放电源和Bixby,但继续按住音量up，直到进入恢复模式。（这里的几步都是按循序执行的，失败后没关系，把握住警告页面后进入黑屏的时机，重来就好了）
 
+9.使用"音量上"和"音量下"按钮在选项之间移动。 找到“Wipe data/factory reset” （必须是这个，而且这个恢复模式里面至少10条可选，如果你进入了只有3条可选的模式，那么就是错误的，得重复8步骤，或者回到5步骤开始，我开始就这里弄错了），按下电源按钮执行擦除。
 
+10.完成擦除后，选择"重新启动系统"（第一个），并立即按下音量上 + Bixby + 电源按钮一起，当警告屏幕出现时，释放按钮（失败了就重试）。手机可能会自动重启一次，不用管它，是正常的。
+
+11.进入系统，完成初始设置，这时候应该能找到Magisk Manager，找不到的话重新安装一次，连上网，进入Magisk Manager等待最后的自动设置。
+
+12.长按Magisk Manager桌面图标就可以添加超级权限了！搞定！
 
 
 

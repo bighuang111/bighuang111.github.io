@@ -47,7 +47,19 @@ http://bbs.gfan.com/android-9558898-1-1.html 这个似乎是一个靠谱的文�
 
 7.重启手机进入下载模式（音量down + Bixby，USB链接电脑），
 
-![root-samsung-s10-1](/root-samsung-s10-1.jpg)
+![](../../img/root-samsung/root-samsung-s10-1.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

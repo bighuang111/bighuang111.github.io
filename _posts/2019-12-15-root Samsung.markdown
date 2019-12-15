@@ -47,9 +47,9 @@ http://bbs.gfan.com/android-9558898-1-1.html 这个似乎是一个靠谱的文�
 
 7.重启手机进入下载模式（音量down + Bixby，USB链接电脑），点击AP选择magsik_patched.tar文件，进入选项options 取消“Auto Reboot”,点击start。
 
-![](../../img/root-samsung/root-samsung-s10-1.jpg)
+![](https://github.com/bighuang111/bighuang111.github.io/blob/master/img/root-samsung/root-samsung-s10-1.jpg)
 
-![](../../img/root-samsung/root-samsung-s10-2.jpg)
+![](https://github.com/bighuang111/bighuang111.github.io/blob/master/img/root-samsung/root-samsung-s10-2.jpg)
 
 8.完成后，按住电源 + 音量down 退出下载模式，当屏幕黑掉后立即按下 音量up + 电源 + Bixby，当屏幕出现警告时，释放电源和Bixby,但继续按住音量up，直到进入恢复模式。（这里的几步都是按循序执行的，失败后没关系，把握住警告页面后进入黑屏的时机，重来就好了）
 

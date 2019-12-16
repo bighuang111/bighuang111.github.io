@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Android MediaCodec"
+title:      "搭建shadowsocks服务器"
 subtitle:   "每天都要变博学的小黄"
 date:       2019-12-16 18:54:00
 author:     "LittleHuang"

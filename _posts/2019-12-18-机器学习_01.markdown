@@ -1,0 +1,63 @@
+---
+layout:     post
+title:      "机器学习"
+subtitle:   "每天都要变博学的小黄"
+date:       2019-12-18 22:07:00
+author:     "LittleHuang"
+header-img: "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - Java
+typora-root-url: ..\img\root-samsung
+---
+
+# 机器学习
+
+### 分支管理
+
+创建dev分支，并切换到dev分支上
+
+`git checkout -b dev `
+
+等价于
+
+```
+git branch dev	#创建分支
+git checkout dev	#切换分支
+```
+
+可以使用`git branch`查看当前的分支，`git branch `会列出当前所有的分支，当前使用的分支会有一`*`。
+
+在`dev`分支中提交新的文件，在`git checkout master`是看不到的，此时需要执行
+
+`git merge dev`
+
+`git merge`命令用于合并指定分支到当前的分支。
+
+`git branch -d dev`删除指定分支
+
+`git log --graph`可以看到分支的合并图
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

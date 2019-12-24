@@ -15,6 +15,72 @@ typora-root-url: ..\img\root-samsung
 
 # git基本命令
 
+### 基本设置
+
+`git init`初始化将这个目录变成git管理的仓库
+
+##### 设置基本信息
+
+```
+git config --global user.name "your name"
+git config --global user.email "your email"
+```
+
+##### 创建ssh key
+
+`ssh-keygen -t rsa -C "youremail@example.com"`
+
+`id_rsa.pub`是公钥，到`git->settings->SSH keys`,创建一个新的key，复制即可
+
+
+
+### 基本操作
+
+`git status`查看当前仓库的状态
+
+`git diff <filename>` 查看该文件的修改情况
+
+##### 提交流程
+
+`git add <file name> `添加修改的文件，`git add .`添加当前目录下所有的修改
+
+`git commit -m <message>`完成提交，此时的提交（仍在本地）
+
+`git push` 提交到远程仓库
+
+##### 查看log
+
+`git log`查看commit的log信息，`git log --pretty=oneline`查看的每次提交的log只有一行
+
+HEAD->master 指的是当前的版本
+
+`git reset --hard HEAD^`退回到上次更新，`git reset --hard <commit id>`,可以回到指定版本
+
+`git reflog` 可以查看所有分支的所有操作记录（包括已经被删除的 commit 记录和 reset 的操作）
+
+##### 撤销修改
+
+`git checkout --file`,撤销一次修改，回到最近一次`git add `或者`git commit`的状态
+
+`git restore --staged <file>` 可以把暂存区的修改撤销掉，即撤回这次的`git add `操作，可以用`git checkout --file`来回到上次的`git add `的状态
+
+##### 删除文件
+
+`git rm`删除文件
+
+`git restore <file name>`恢复一个删除的文件
+
+
+
+### 链接远程仓库
+
+```
+git remote add origin https://github.com/bighuang111/Android-MediaCodec.git
+git push -u origin master
+```
+
+
+
 ### 分支管理
 
 创建dev分支，并切换到dev分支上

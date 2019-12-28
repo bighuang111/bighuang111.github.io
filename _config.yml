@@ -4,7 +4,7 @@ SEOTitle: 小黄的博客 | LittleHuang Blog
 header-img: img/home-bg.jpg
 email: kaiyuhuang@bupt.edu.cn
 description: "一个乱七八糟的android开发"
-keyword: "小黄, 小黄的博客, Huang Blog, 博客, 个人网站, AI, Android, 游戏, 产品, 立志成为土豆的男朋友"
+keyword: "小黄, 小黄的博客, Huang Blog, 博客, 个人网站, AI, Android, unity, 产品"
 url: "https://bighuang111.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: huang
 
 # Netease setttings
 netease_comment: false
@@ -61,13 +61,13 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: 
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-about-description: "写写代码，做做游戏，<br>离开世界之前，一切都是过程"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

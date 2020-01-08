@@ -76,7 +76,7 @@ HEAD->master 指的是当前的版本
 
 ```
 git remote add origin https://github.com/bighuang111/Android-MediaCodec.git
-git push -u origin master
+git push --set-upstream origin master
 ```
 
 

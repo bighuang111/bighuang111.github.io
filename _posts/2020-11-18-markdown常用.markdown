@@ -1,0 +1,106 @@
+---
+layout:     post
+title:      "chromium for android support hevc"
+subtitle:   "每天都要变博学的小黄"
+date:       2020-11-18 20:31:00
+author:     "LittleHuang"
+header-img: "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 常用工具
+typora-root-url: ..\img\root-samsung
+---
+
+# markdown语法
+
+##### 标题
+
+一个#是一级标题，两个#是二级标题，支持六级标题
+
+##### 字体
+
+- 加粗：用左右各用两个\*包裹，**比如**。（\\是转义字符）
+- 斜体：左右用一个\*包裹，*斜体*。
+- 斜体加粗：左右用三个\*包裹，***斜体加粗***。
+- 删除下：左右分别用两个\~~包裹，~~删除线~~。
+
+##### 引用：
+
+在引用的文字前加\>,引用可以嵌套，比如\>>或者\>>>。
+
+> 这是一段引用。
+>
+> > 嵌套的引用。
+
+##### 分割线：
+
+三个或者以上的\-或者\*。
+
+比如：
+
+---
+
+***
+
+##### 图片
+
+使用第三方图床工具：sm(https://sm.ms/)
+
+上传成功后会生成链接
+
+```
+![图片alt](图片地址 ''图片title'')
+
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+```
+
+
+
+![webrtc.png](https://i.loli.net/2020/11/18/YiPKFn5a6VAO94N.png "webrtc")
+
+
+
+##### 超链接
+
+```
+[baidu](https://baidu.com)
+```
+
+[baidu](https://baidu.com)
+
+##### 表格
+
+`|姓名|技能|排行|`
+
+| 姓名   | 技能   | 排行   |
+| ---- | ---- | ---- |
+|      |      |      |
+
+##### 流程图
+
+`\`\`\`\`flow进入流程图，具体内容如下：`
+
+```
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+op1=>operation: Your Opeartion2
+cond=>condition: Yes or No?
+e=>end
+st->op->op1->cond
+cond(yes)->e
+cond(no)->op1
+```
+
+##### 数学公式：待补充
